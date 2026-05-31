@@ -1,0 +1,35 @@
+baseURL = "https://kautzarichramsyah.github.io/"
+languageCode = "en-us"
+title = "Kautzar Ichramsyah"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  author = "Kautzar Ichramsyah"
+  description = "Data Scientist"
+
+[params.homeInfoParams]
+  Title = "Hi, I'm Kautzar!"
+  Content = "Data Scientist at Saudia Airlines. Here I share things I'm learning and building with Python, SQL, and statistics."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/kautzarichramsyah"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/kautzarichramsyah"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
